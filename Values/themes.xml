@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.NAStore" parent="Theme.MaterialComponents.DayNight.NoActionBar.Bridge">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/appbarColor</item>
+        <item name="colorPrimaryVariant">@color/appbarColor</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/appbarColor</item>
+        <item name="colorSecondaryVariant">@color/appbarColor</item>
+        <item name="colorOnSecondary">@color/appbarColor</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+
+
+
+        <!-- Customize your theme here. -->
+    </style>
+</resources>
